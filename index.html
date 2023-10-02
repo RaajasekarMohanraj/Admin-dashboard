@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin console</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="menu">
+            <div id="logo" class="menu-item">Admin Ground</div>
+            <div id="menu-list" class="menu-item">
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/home.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Home</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/card-account-details.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Profile</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/message-reply.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Messages</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/history.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">History</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/sitemap.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Tasks</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/account-group.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Communities</p>
+                </div>
+                <br><br>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/cog.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Settings</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/face-agent.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Support</p>
+                </div>
+                <div class="menu-list-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <image xlink:href="icons/shield-lock.svg" />
+                    </svg>
+                    <p class="menu-list-item-text">Privacy</p>
+                </div>
+            </div>
+        </div>
+        <div id="main-content">
+
+            <div id="header" class="main-content-item card">
+                <!-- Contains search bar, notification button, profile icon and profile name -->
+                <div id="header-content-01" class="header-content">
+                    <div id="header-content-01-side-01">
+                        <svg id="search-icon" class="header-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <image xlink:href="icons/magnify.svg" />
+                        </svg>
+                        <input id="search-bar" type="text">
+                    </div>
+                    <div id="header-content-01-side-02">
+                        <svg class="header-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <image xlink:href="icons/bell-ring-outline.svg" />
+                        </svg>
+                        <img class="profile-picture" src="Images/logo-man.png" alt="This image is not loaded"
+                            height="50px" width="50px">
+                        <h4>Raajasekar Mohanraj</h4>
+                    </div>
+
+
+                </div>
+                <!-- Contains Profile icon, name , new/upload/share buttons -->
+                <div id="header-content-02" class="header-content">
+                    <div id="header-content-02-side-01">
+                        <img class="profile-picture" src="Images/logo-man.png" alt="This image is not loaded"
+                            height="100px" width="100px">
+                        <div class="column-flex">
+                            <h4>Hello there!</h4>
+                            <h2>Raajasekar Mohanraj</h2>
+                        </div>
+                    </div>
+                    <div id="header-content-02-side-02">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex-row">
+                <div id="project-list" class="main-content-item card">
+                    <div class="project-item card">
+                        <h3>Intercultural training</h3>
+                        <span>
+                            In this business class, student teams are asked to prepare a mock training workshop to educate people on business customs for a particular country. In this semester long project, student teams choose a country of interest, find web and other resources about business cultural practices, and put together a presentation for the rest of the class in the form of a training workshop. (Holly Littlefield, CSOM, UMTC)
+                        </span>
+                    </div>
+                    <div class="project-item card">
+                        <h3>Evaluate a road deicer</h3>
+                        <span>
+                            This is a project in a general Chemistry lab course. Student teams are tasked with evaluating one deicer using available chemical lab stores. Students must come up with their own methods for determining the physical and chemical properties of a deicer and evaluate it in the laboratory. This is a three lab period (3 x ~3 hours) long project that ties to chemical principles students are learning in the corresponding lecture course.  At the end of the project, student groups present their data to six other groups, each of whom were assigned a different deicer to evaluate.  The students then discuss the data and select the best deicer from the all information gathered. (Michelle Driessen, Chemistry, UMTC)
+                        </span>
+                    </div>
+                    <div class="project-item card">
+                        <h3>Genetic engineering proposal</h3>
+                        <span>
+                            This is a project in an introductory Biology class. Student teams are tasked with creating a scientific proposal and a poster illustrating their proposal for genetically modifying an organism to benefit society. This project lasts the entire semester. Student teams choose a problem of interest and then come up with an original idea, using genetic modification of a plant, microbe, or animal to address the problem. They must propose the methods to be used and address ethical considerations. All steps in the project are tied to class content. (Sue Wick, CBS, UMTC)
+                        </span>
+                    </div>
+                    <div class="project-item card">
+                        <h3>Structured debates in a Gender, Women, and Sexuality Studies course
+                        </h3>
+                        <span>
+                            Student teams are assigned one side of a topical debate, such marriage equality as an LGBTQ issue or the significance of slut walk on protesting sexual violence. Teams then prepare their arguments using course materials and additional resources. The class is divided into pro and anti arguments and students are assigned to subgroups, which present arguments and counterarguments for their positions. An in-class debate takes place during which each team presents the various components of their position. The project helps students formulate arguments with evidence, which is a goal of the course. This is a two week long project. (Jigna Desai, CLA, UMTC)
+                        </span>
+                    </div>
+                    <div class="project-item card">
+                        <h3>Community partners project</h3>
+                        <span>
+                            This is a web usability class. Student teams apply their newly acquired web usability analysis skills to a community organization with a website in need of [more content to come]. In this semester long project, student teams choose from several instructor-selected community organization projects and do usability testing on their website and make recommendations to the organization in a final presentation to the entire class. This project is worth [More content to come] of their final grade. (Lee-Ann Breuch, CLA, UMTC)
+                        </span>
+                    </div>
+                    <!-- <div class="project-item card">
+                        <h4>Project 06</h4>
+                        <span>
+                            Project description 06
+                        </span>
+                    </div> -->
+    
+    
+                </div>
+
+                <div id="side-content">
+                    <h3>Announcements</h3>
+                    <div id="announcements" class="main-content-item card">
+                        <div class="announcement-item">
+                            <h4>Site Maintenance</h4>
+                            <span>It is very important to mainatain the site. It wil help the performance of the site. That is all.</span>
+                        </div>
+                        <div  class="announcement-item">
+                            <h4>Community share day</h4>
+                            <span>It is very important to share it to the community. It wil help the performance of the site. That is all.</span>
+                        </div>
+                        <div class="announcement-item">
+                            <h4>Updated privacy policy</h4>
+                            <span>It is very important to update the privacy policy time to time. It wil help the performance of the site. That is all.</span>
+                        </div>
+                    </div>
+                    <h3>Trending</h3>
+                    <div id="trending" class="main-content-item card">
+                        <div class="trending-item">
+                            <img src="Images/logo-tiger.png" alt="This image cannot be loaded" height="40px" width="40px" class="profile-picture">
+                            <div>
+                                <strong class="site-id">@black-tiger</strong>
+                                <span class="site-description">Safe tiger!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+*{
+    font-family: Georgia, "Times New Roman","Lucida Console","Courier New",monospace;
+}
+
+
+body{
+    background-color: #f7effe;
+    margin: 0px;
+}
+svg{
+    padding: 0.35rem;
+}
+svg, svg image{
+    width: 35px;
+    height: 35px;
+}
+svg image{
+    fill: #dfc5dc;
+}
+
+
+#logo{
+    margin: 10px;
+    font-family: "Courier New",monospace;
+    font-weight: 900;
+    color: #6068c0;
+}
+
+
+button{
+    line-height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #cb9ff7;
+    border: 3px #cb9ff7 solid;
+
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px #8000ff solid;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+#menu{
+    background-color: #f9d7f6 ;
+    width: max(330px, 22%);
+}
+#main-content{
+    position: static;
+    width: 100%;
+    height: max-content;
+}
+
+#logo{
+    font-size: xx-large;
+    padding: 2rem 0px 2rem 0px;
+}
+
+.menu-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 3px #f9d7f6 solid;
+}
+
+.menu-list-item:hover{
+    background-color: #eeddff;
+    border: 3px #8000ff solid;
+    cursor: pointer;
+}
+
+.card{
+    margin: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #f3e9fe;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #header-content-01{
+    width: 100%;   
+} */
+
+#header-content-01-side-01, #header-content-01-side-02, #header-content-02-side-01, #header-content-02-side-02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+#header-content-01-side-01 > * , #header-content-01-side-02 > * , #header-content-02-side-01 > *, #header-content-02-side-02 > *{
+    padding: 0px 15px 0px 15px;
+}
+
+#search-bar{
+    width: 30vw;
+    flex-shrink: 5;
+    line-height: 25px;
+    border-radius: 20px;
+    border: #eeddff 4px solid;
+}
+
+#search-bar:focus-visible{
+    border: 3px #8000ff solid;
+}
+
+#search-icon{
+}
+
+#project-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+}
+
+.project-item{
+    height: 250px;
+    padding: 15px;
+    overflow: hidden;
+    
+}
+.project-item.card{
+    background-color: #eee4fd;
+}
+.project-item:hover{
+    overflow: auto;
+}
+.project-item::-webkit-scrollbar{
+    width: 2px;
+}
+.project-item::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .project-item::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .project-item ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  #side-content{
+    width: 30%;
+  }
+
+  #side-content > div{
+      padding: 25px;
+  }
+
+  #side-content > h3{
+    padding-left: 35px;
+}
+  .announcement-item, .trending-item{
+    border-bottom: 1px solid gainsboro;
+  }
+
+
+  .trending-item{
+    display: flex;
+  }
+  .trending-item > *{
+    padding: 0px 10px 0px 10px;
+  }
+
+  .trending-item > div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
